@@ -1,7 +1,21 @@
-canvas {
-    border: 10px solid black;    
-}
+
 
 html, body {
     margin: 0;
+    padding: 0;
+}
+canvas {
+    position: absolute;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container button{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
